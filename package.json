@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "run-dev": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.22.1"
+  }
 }
